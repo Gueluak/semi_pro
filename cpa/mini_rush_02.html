@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="icone/sprite_0.png" />
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="mini_rush_02.css">
+	<title>Mini Rush</title>
+	<script src="http://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous" ></script>
+	<script   src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"   integrity="sha256-DI6NdAhhFRnO2k51mumYeDShet3I8AKCQf/tf7ARNhI="   crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="head">
+	<div id="option">
+		<div class="button TLflag" id="01"><img src="icone/ic_timeline_black_24px.svg"/></div>
+		<div class="button TLflag" id="02"><img src="icone/ic_euro_symbol_black_24px.svg"/></div>
+		<div class="button TLflag" id="03"><img src="icone/ic_work_black_24px.svg"/></div>
+		<div class="button" id="01a"><img src="icone/ic_add_alert_black_24px.svg"/></div>
+		<div class="button" id="02a"><img src="icone/ic_flag_black_24px.svg"/></div>
+		<div class="button" id="03a"><img src="icone/ic_add_black_24px.svg"/></div>
+
+	<div id="formulaire">
+		<input id="form_nom" type="text" size="30" placeholder ="Nom" />
+		<br/>
+		<input id="form_duree" type="number" size="30" placeholder="duree" />
+		<br/>
+		<input id="form_revenue" type="number" size="30" placeholder="Revenue" />
+		<br/>
+		<input id="form_date" type="date" size="30" placeholder="Date de depart" />
+		<br/>
+		<input id="form_color" type="color" size="30" value="#a4b1FE"></input>
+		<br/>
+		<div id="check_ok">ok</div>
+	</div>
+
+	</div>
+</div>
+<div id="main">
+	<h3>Mes Droits</h3>
+	<div id="profile">
+		<img src="icone/facebook-storm-trooper.jpg" id="image_profil">
+		<p>JTN-303</p>
+	</div>
+	<div id="droit">
+		<hr/>
+		<div class="lol"><canvas id="droit01"></canvas><p>prime de <br/> risque</p></div>
+		<div class="lol"><canvas id="droit02"></canvas><p>bourse<br/>munition</p></div>
+		<div class="lol"><canvas id="droit03"></canvas><p>credit<br/>imperial</p></div>
+		<div class="lol"><canvas id="droit04"></canvas><p>frais<br/>medicaux</p></div>
+
+	</div>
+	<div id="TimeLine">
+		<div id="TL01" style="display: inline-block;">
+			<img src="icone/ic_timeline_black_24px.svg"/>
+			<span id="lTL01" class="line">
+			</span>
+		</div>
+		<div id="TL02" style="display: inline-block;">
+			<img src="icone/ic_euro_symbol_black_24px.svg"/>
+			<span id="lTL02" class="line">
+			</span>
+		</div>
+		<div id="TL03" style="display: inline-block;">
+			<img src="icone/ic_work_black_24px.svg"/>
+			<span id="lTL03" class="line">
+			</span>
+		</div>
+	</div>
+</div>
+<script src="mini_rush_02.js"></script>
+</body>
+</html>

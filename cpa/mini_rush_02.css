@@ -1,0 +1,161 @@
+body
+{
+	font-size: 1.1vh;
+	padding: 1vh;
+	background-color: #bdc3c7;
+	color: #7f8c8d;
+	font-family: sans-serif;
+}
+
+#head
+{
+	position: relative;
+	top: 36vh;
+}
+
+#main
+{
+	z-index: 1000;
+	position: relative;
+	height: 40vh;
+	top: 35vh;
+	background-color: #ffffff;
+	border: 3px solid #d4d9dc;
+}
+
+#image_profil
+{
+	float: left;
+	width: 10vh;
+	border-radius: 10vh;
+	height: 10vh;
+}
+
+#profile p
+{
+	position: absolute;
+	text-align: center;
+	padding: 0;
+	border-radius: 1em;
+	color: #ecf0f1;
+	border: solid 3px #95a5a6;
+	font-size: 1.3em;
+	width: 8vh;
+	height: 2vh;
+	background-color: #bdc3c7;
+	top: 9vh;
+	left: 0.5vh;
+}
+
+#option
+{
+	z-index: 0;
+	height: 3.8vh;
+	padding: 0.1vh;
+	background-color: #ecf0f1; 
+	border-bottom: 3px solid #bdc3c7;
+	border-top: 3px solid #ffffff;
+}
+
+.in
+{
+	position: absolute;
+	background-color: #a4b1FE;
+	color: #ecf0f1;
+	height: 2.5vh;
+	width: 0vh;
+	margin: 0;
+	opacity: 10%;
+	margin-top: 1vh;
+	border: 1px solid black;
+	text-align: center;
+	padding: 0;
+}
+
+.lol
+{
+	vertical-align: middle;
+	color: #ecf0f1;
+	position: relative;
+	top: 3vh; left: 1vh;
+	width: 8vh;
+	float: left;
+}
+
+h3
+{
+	position: absolute;
+	left: 12vh;
+	top: 0vh;
+}
+
+.lol p
+{
+	position: absolute;
+
+	vertical-align: middle;
+	top: 1vh; left: 1.5vh;
+	text-align: center;
+}
+
+#formulaire
+{
+	display: none;
+	position:absolute;
+	right: 7vh;
+	top: -8vh;
+	background-color: #ecf0f1;
+	border: 1px solid #ecf0f1;
+}
+
+#check_ok
+{
+	width: 20px;
+	height: 20px;
+	background-color: #ff0088;
+	color: #00ff88;
+	border: solid black 1px;
+}
+
+.TLflag
+{
+	border-radius: 0.3vh;
+	height: 2.8vh;
+	background: #d4d9dc;
+}
+
+.button
+{
+	float: right;
+	margin: 0.6vh;
+}
+
+.button img
+{
+	height: 2.5vh;
+}
+
+#TimeLine
+{
+	position: absolute;
+	width: auto;
+	height: 20vh;
+	overflow: scroll;
+	left: 2vh; top: 14vh;
+}
+
+#TimeLine img
+{
+	width: 5vh;
+}
+
+
+.line
+{
+	position: relative;
+	width: 55vw;
+	top: 1vh;
+	left: 2vh;
+	display: inline-block;
+	height: 5vh;
+}
