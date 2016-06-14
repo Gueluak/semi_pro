@@ -7,3 +7,7 @@ function	creat_div_into(d_css, parent, content, id)
 	d_css.css_aply(id);
 }
 
+function	Obj_css()
+{
+	
+}

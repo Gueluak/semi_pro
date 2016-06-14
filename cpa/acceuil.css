@@ -1,26 +1,66 @@
-body
+@media screen and (min-width:1000px)
 {
-	background-color: #ecf0f1;
+    body 
+    {
+        background-color: pink;
+    }
+	   #Main
+	{
+		margin-left: -450px;
+		width: 900px;
+	}
+	.M_menu
+	{
+		width: 250px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 27px;
+		margin-bottom: 27px;
+	}
+	#Drois
+	{	
+		margin-left: -150px;
+		width: 600px;
+	}
+	#Profile
+	{
+		margin-left: -450px;
+		width: 300px;
+	}
 }
 
-#Profile
-{
-	background-color: #558855;
-	position: absolute;
-	left: 50%;
-	margin-left: -45vw;
-	width: 30vw;
-	height: 20vh;
-}
 
-#Drois
+
+@media screen and (max-width: 1000px)
 {
-	background-color: #555588;
-	position: absolute;
-	left: 50%;
-	margin-left: -15vw;
-	width: 60vw;
-	height: 20vh;
+	body
+	{
+		background-color: #00f0f1;
+	}
+	#Main
+	{
+		margin-left: -45vw;
+		width: 90vw;
+	}
+	.M_menu
+	{
+		width: 25vw;
+		margin-left: 2vw;
+		margin-right: 2vw;
+		margin-top: 3vh;
+		margin-bottom: 3vh;
+	}
+	#Drois
+	{
+		margin-left: -15vw;
+		width: 60vw;
+	}
+	#Profile
+	{
+		margin-left: -45vw;
+		width: 30vw;
+	}
+
 }
 
 #Main
@@ -29,10 +69,25 @@ body
 	position: absolute;
 	left: 50%;
 	top: 21vh;
-	margin-left: -45vw;
-	width: 90vw;
 	height: 60vh;
 }
+
+#Profile
+{
+	background-color: #558855;
+	position: absolute;
+	left: 50%;
+	height: 20vh;
+}
+
+#Drois
+{
+	background-color: #555588;
+	position: absolute;
+	left: 50%;
+	height: 20vh;
+}
+
 
 .D_drois
 {
@@ -49,8 +104,6 @@ body
 {
 	box-shadow:  0px 0px 1vh #000000;
 	display: inline-block;
-	margin: 3vh;
-	width: 25vw;
 	height: 50vh;
 	background-color: #cc8888;
 }

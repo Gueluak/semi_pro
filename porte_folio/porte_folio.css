@@ -1,0 +1,56 @@
+@media screen and (min-width: 1000px)
+{
+	#body
+	{
+		width: 900px;
+		margin-left: -450px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	#body
+	{
+		width: 90vw;
+		margin-left: -45vw;
+	}
+}
+
+body
+{
+	background-color: #AEA8D3;
+}
+
+#body
+{
+	position: absolute;
+	left: 50%;
+	background-color: #ffaaaa;
+	height: 80vh;
+
+}
+
+#foot_menu
+{
+	position: fixed;
+	left: 50%;
+}
+
+.element_menu
+{
+	transition-duration: 0.5s;
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #aaffaa;
+}
+
+.element_menu:hover
+{
+	transition-duration: 0.5s;
+	margin-top: -50px;
+	width: 100px;
+	height: 100px;
+}
