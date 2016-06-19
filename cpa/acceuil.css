@@ -1,109 +1,44 @@
-@media screen and (min-width:1000px)
+body
 {
-    body 
-    {
-        background-color: pink;
-    }
-	   #Main
-	{
-		margin-left: -450px;
-		width: 900px;
-	}
-	.M_menu
-	{
-		width: 250px;
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-top: 27px;
-		margin-bottom: 27px;
-	}
-	#Drois
-	{	
-		margin-left: -150px;
-		width: 600px;
-	}
-	#Profile
-	{
-		margin-left: -450px;
-		width: 300px;
-	}
+	background-color: #555555;
 }
 
-
-
-@media screen and (max-width: 1000px)
+#body
 {
-	body
-	{
-		background-color: #00f0f1;
-	}
-	#Main
-	{
-		margin-left: -45vw;
-		width: 90vw;
-	}
-	.M_menu
-	{
-		width: 25vw;
-		margin-left: 2vw;
-		margin-right: 2vw;
-		margin-top: 3vh;
-		margin-bottom: 3vh;
-	}
-	#Drois
-	{
-		margin-left: -15vw;
-		width: 60vw;
-	}
-	#Profile
-	{
-		margin-left: -45vw;
-		width: 30vw;
-	}
-
+	width: 1100px;
+	background-color: #ffffff;
 }
 
-#Main
+.title h3, .corp, #body
 {
-	background-color: #885555;
-	position: absolute;
+	position: relative;
 	left: 50%;
-	top: 21vh;
-	height: 60vh;
+	margin-left: -550px;
 }
 
-#Profile
+.corp
 {
-	background-color: #558855;
-	position: absolute;
-	left: 50%;
-	height: 20vh;
+	display: block;
+	width: 1100px;
+	height: 300px;
 }
 
-#Drois
+.title h3
 {
-	background-color: #555588;
-	position: absolute;
-	left: 50%;
-	height: 20vh;
-}
-
-
-.D_drois
-{
-	box-shadow:  0px 0px 1vh #000000;
+	font-family: sans-serif;
+	padding-left: 50px;
+	padding-right: 30px;
 	display: inline-block;
-	border-radius: 20vh;
-	margin: 3vh;
-	width: 14vh;
-	height: 14vh;
-	background-color: #8888cc;
+	color: #ffffff;
+	background-color: #880066;
 }
 
-.M_menu
+h4
 {
-	box-shadow:  0px 0px 1vh #000000;
-	display: inline-block;
-	height: 50vh;
-	background-color: #cc8888;
+	font-size: 2em;
+	padding: 6px;
+	padding-left: 50px;
+	font-family: sans-serif;
+	color: #ffffff;
+	background-color: #000088;
 }

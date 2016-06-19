@@ -32,8 +32,38 @@ body
 
 #foot_menu
 {
+	background-color: #ffaaaa;
+	transition-duration: 0.5s;
 	position: fixed;
+	top: 90%;
 	left: 50%;
+	height: 50px;
+	margin-left: -75px;
+}
+
+#a01:hover
+{
+	transition-duration: 0.5s;
+	margin-top: -50%;
+	margin-left: -50px;
+	width: 100px;
+	height: 100px;
+}
+#a02:hover
+{
+	transition-duration: 0.5s;
+	margin-top: -50%;
+	margin-left: -25px;
+	width: 100px;
+	height: 100px;
+}
+
+#a03:hover
+{
+	transition-duration: 0.5s;
+	margin-top: -50%;
+	width: 100px;
+	height: 100px;
 }
 
 .element_menu
@@ -47,10 +77,3 @@ body
 	background-color: #aaffaa;
 }
 
-.element_menu:hover
-{
-	transition-duration: 0.5s;
-	margin-top: -50px;
-	width: 100px;
-	height: 100px;
-}
