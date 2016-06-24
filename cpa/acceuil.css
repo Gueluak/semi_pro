@@ -5,42 +5,102 @@ body
 
 #body
 {
-	width: 1100px;
+	box-shadow: 0px 0px 15px #333333;
 	background-color: #ffffff;
 }
 
 .title h3, .corp, #body
 {
 	position: relative;
-	left: 50%;
-	margin-left: -550px;
+	margin: auto;
 }
 
 .corp
 {
+	overflow: auto;
 	display: block;
-	width: 1100px;
 	height: 300px;
 }
 
 .title h3
 {
 	font-family: sans-serif;
+	font-weight: normal;
 	padding-left: 50px;
 	padding-right: 30px;
 	display: inline-block;
+	font-size: 35px;
 	color: #ffffff;
 	background-color: #880066;
+}
+
+.flech
+{
+	margin: -20px;
+	margin-left: 30px;
+	margin-right: -60px;
+	height: 60px;
+	padding: 0;
+	position: relative;
+	top: -2px;
+	display: inline-block;
 }
 
 h4
 {
 	font-size: 2em;
-	padding: 6px;
+	font-weight: normal;
+	padding: 12px;
 	padding-left: 50px;
 	font-family: sans-serif;
 	color: #ffffff;
 	background-color: #000088;
+}
+.vide
+{
+	background-color: #ffffff !important;
+}
+.carrer_barr span
+{
+	background-color: #00ffff;
+}
+
+.barr_pro span
+{
+	background-color: #3da7b1;
+}
+
+.carrer_barr > span
+{
+	position: relative;
+	min-width: 400px;
+	top: 0px;
+	height: 60px;
+	display: table-cell;
+	border-radius: 100px;
+}
+
+.carrer_barr
+{
+	//background-color: #956483;
+	margin: 10px;
+	height: 60px;
+}
+
+.title h4 img
+{
+	float: right;
+	margin-top: -15px;
+}
+
+.title h4
+{
+	padding-right: 30px;
+}
+
+#bulle
+{
+	padding-right: 50px;
 }
 
 p
