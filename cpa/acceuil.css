@@ -86,18 +86,18 @@ h4 img
 .cercle
 {
 	position: relative;
-	left: 150px;
+	left: 75px;
 	float: left;
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 }
 
 .cercle div
 {
 	position: relative;
-	opacity: 0.5;
-	height: 10px;
-	width: 65px;
+	opacity: 0.6;
+	height: 12px;
+	width: 45px;
 	border-radius: 20px;
 	background-color: #ff8811;
 }
@@ -111,64 +111,64 @@ h4 img
 
 .pos2
 {
-	left: 42px;
-	top: 33px;
+	left: 26px;
+	top: 19px;
 	-webkit-transform:rotate(54deg);
 }
 
 .pos3
 {
-	left:58px; 
-	top: 73px;
+	left:36px;
+	top: 37px;
 	-webkit-transform:rotate(90deg);
 }
 
 .pos4
 {
-	left:42px; 
-	top: 112px;
+	left:25px;
+	top: 55px;
 	-webkit-transform:rotate(126deg);
 }
 
 .pos5
 {
-	left:0px; 
-	top: 133px;
+	left:0px;
+	top: 62px;
 	-webkit-transform:rotate(162deg);
 }
 
 .pos6
 {
-	left:-51px; 
-	top: 123px;
+	left:-32px;
+	top: 50px;
 	-webkit-transform:rotate(198deg);
 }
 
 .pos7
 {
-	left:-93px; 
-	top: 82px;
+	left:-57px;
+	top: 20px;
 	-webkit-transform:rotate(234deg);
 }
 
 .pos8
 {
-	left:-108px; 
-	top: 23px;
+	left:-67px;
+	top: -23px;
 	-webkit-transform:rotate(270deg);
 }
 
 .pos9
 {
-	left:-93px; 
-	top: -36px;
+	left:-57px;
+	top: -66px;
 	-webkit-transform:rotate(306deg);
 }
 
 .pos0
 {
-	left:-52px; 
-	top: -77px;
+	left:-32px;
+	top: -96px;
 	-webkit-transform:rotate(342deg);
 }
 
