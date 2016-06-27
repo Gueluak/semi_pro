@@ -10,6 +10,20 @@ body
 	background-color: #ffffff;
 }
 
+.inside
+{
+	margin-top: -75px;
+	margin-left: -190px;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+h2
+{
+	text-align: center;
+	margin-left: -140px;
+}
+
 .title h3, .corp, #body
 {
 	position: relative;
@@ -95,11 +109,20 @@ h4 img
 .cercle div
 {
 	position: relative;
-	opacity: 0.6;
 	height: 12px;
 	width: 45px;
 	border-radius: 20px;
-	background-color: #ff8811;
+	background-color: rgba(255, 136, 16, 0.5);
+	z-index: 1;
+}
+
+.cercle div img
+{
+	height: 19px;
+	position: relative;
+	top: -3px;
+	z-index: 5;
+	left: -3px;
 }
 
 .pos1
@@ -118,7 +141,7 @@ h4 img
 
 .pos3
 {
-	left:36px;
+	left:35px;
 	top: 37px;
 	-webkit-transform:rotate(90deg);
 }
