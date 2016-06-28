@@ -1,3 +1,5 @@
+ /*-- MeP general --*/
+
 body
 {
 	background-color: #555555;
@@ -18,13 +20,7 @@ body
 	margin-bottom: 75px;
 }
 
-h2
-{
-	text-align: center;
-	margin-left: -140px;
-}
-
-.title h3, .corp, #body
+h3, .corp, #body
 {
 	position: relative;
 	margin: auto;
@@ -40,16 +36,48 @@ h2
 	padding: 0;
 }
 
-.title h3
+/*-- marge de 50 px sur la gauche de chaque element --*/
+
+p , h3 , h4
+{
+	padding-left: 50px !important;
+}
+
+/*-- les titre et leur image --*/
+
+h2
+{
+	text-align: center;
+	margin-left: -140px;
+}
+
+h3
 {
 	font-family: sans-serif;
 	font-weight: normal;
-	padding-left: 50px;
 	padding-right: 30px;
 	display: inline-block;
 	font-size: 35px;
 	color: #ffffff;
 	background-color: #880066;
+}
+
+h4
+{
+	font-size: 2em;
+	padding-right: 30px;
+	font-weight: normal;
+	padding: 12px;
+	font-family: sans-serif;
+	color: #ffffff;
+	background-color: #000088;
+}
+
+h4 img
+{
+	display: table-cell;
+	float: right;
+	margin-top: -15px;
 }
 
 .flech
@@ -64,20 +92,47 @@ h2
 	display: inline-block;
 }
 
-h4
+/*-- formulaire --*/
+
+#right
 {
-	font-size: 2em;
-	font-weight: normal;
-	padding: 12px;
-	padding-left: 50px;
-	font-family: sans-serif;
-	color: #ffffff;
-	background-color: #000088;
+	float: right;
 }
 
-h4 img
+#right p
 {
+	text-align: left;
+	margin: 5px;
+}
+
+#right input, #right select
+{
+	width: 300px;
+	font-size: 15px;
+	text-align: center;
+}
+
+/*-- les barre de cariere et formation --*/
+
+.carrer_barr
+{
+	margin:10px;
+	height: 60px;
+}
+
+.carrer_barr span
+{
+	position: relative;
+	min-width: 400px; /*---- a changer en fonction des info ----*/
+	top: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	display: table-cell;
+}
+
+.carrer_barr span img
+{
+	margin: -15px;
 }
 
 .start
@@ -91,11 +146,28 @@ h4 img
 	border-bottom-right-radius: 100px;
 	border-top-right-radius: 100px;
 }
-.carrer_barr span img
+
+.vide
 {
-	margin: -15px;
-	//-webkit-transform:rotate(45deg);
+	background-color: #ffffff !important;
 }
+
+.barr_pro span
+{
+	background-color: #3da7b1;
+}
+
+.barr_pay span
+{
+	background-color: #ffaa11;
+}
+
+.barr_for span
+{
+	background-color: #ff2211;
+}
+
+/*-- les cercle de droit --*/
 
 .cercle
 {
@@ -112,7 +184,6 @@ h4 img
 	height: 12px;
 	width: 45px;
 	border-radius: 20px;
-	background-color: rgba(255, 136, 16, 0.5);
 	z-index: 1;
 }
 
@@ -124,6 +195,18 @@ h4 img
 	z-index: 5;
 	left: -3px;
 }
+
+.cercle_off
+{
+	background-color: rgba(255, 136, 16, 0.5);
+}
+
+.cercle_on
+{
+	background-color:rgba(61, 167, 177, 0.5);
+}
+
+/*---- segment des cercle ----*/
 
 .pos1
 {
@@ -193,62 +276,4 @@ h4 img
 	left:-32px;
 	top: -96px;
 	-webkit-transform:rotate(342deg);
-}
-
-
-.vide
-{
-	background-color: #ffffff !important;
-}
-.carrer_barr span
-{
-	background-color: #00ffff;
-}
-
-.barr_pro span
-{
-	background-color: #3da7b1;
-}
-
-.barr_pay span
-{
-	background-color: #ffaa11;
-}
-
-.carrer_barr > span
-{
-	position: relative;
-	min-width: 400px;
-	top: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	display: table-cell;
-}
-
-.carrer_barr
-{
-	//background-color: #956483;
-	margin:10px;
-	height: 60px;
-}
-
-.title h4 img
-{
-	float: right;
-	margin-top: -15px;
-}
-
-.title h4
-{
-	padding-right: 30px;
-}
-
-#bulle
-{
-	padding-right: 50px;
-}
-
-p
-{
-	padding-left: 50px;
 }

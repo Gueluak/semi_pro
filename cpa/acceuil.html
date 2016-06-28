@@ -10,81 +10,103 @@
 	<body>
 		<div id="body">
 			<div id="header">
-				<span class="title"><h4>Futurs et Moi
+				<span><h4>Futurs et Moi
 					<img src="ressource/book.png">
 					<img src="ressource/balance.png">
 					<img src="ressource/cv.png">
-					<img id="bulle" src="ressource/bulle.png"></h4></span>
+					<div style="height:1px;width:50px;float:right"></div>
+					<img src="ressource/bulle.png"></h4></span>
 				<span id="c_head">
 					<p>Ici il faudra trouver un message courtois pour dire que toutes ces informaitons sont pas 100% la verité <br/>
 mais qu’on fait tout pour s’en approcher</p>
 				</span>
 			</div>
+			<div id="menu">
+				<div id="left">
+				</div>
+				<form id="right">
+					<p>Nom<input type="text" name="Nom"></p>
+					<br>
+					<p>Debut<input type="date" name="Debut"></p>
+					<br>
+					<p>fin<input type="date" name="Fin"></p>
+					<br>
+					<p>Cout<input type="number" name="Cout"></p>
+					<br>
+					<p>Revenue<input type="number" name="Revenue"></p>
+					<br>
+					<p>Frise<select name="frise">
+						<option>C.V.</option>
+						<option>Revenu</option>
+						<option>Formation</option>
+					</select></p>
+				</form>
+			</div>
 			<div id="droits">
-				<span class="title"><h3>Mes droits aujourd’hui
+				<span><h3>Mes droits aujourd’hui
 				<img class="flech" src="ressource/fleche.png"></h3></span>
 				<span class="corp" id="c_droits">
 					<div class="cercle">
-						<div class="pos1" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos2" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos3" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos4" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos5">
+						<div class="pos1 cercle_on"></div>
+						<div class="pos2 cercle_on"></div>
+						<div class="pos3 cercle_on"></div>
+						<div class="pos4 cercle_on"></div>
+						<div class="pos5 cercle_off">
 							<img src="ressource/fleche.png">
 						</div>
-						<div class="pos6"></div>
-						<div class="pos7"></div>
-						<div class="pos8"></div>
-						<div class="pos9"></div>
-						<div class="pos0"></div>
+						<div class="pos6 cercle_off"></div>
+						<div class="pos7 cercle_off"></div>
+						<div class="pos8 cercle_off"></div>
+						<div class="pos9 cercle_off"></div>
+						<div class="pos0 cercle_off"></div>
 						<p class="inside">73<br>trimestres</p>
 						<h2>Retraite</h2>
 					</div>
 					<div class="cercle">
-						<div class="pos1" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos2" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos3" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos4" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos5" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos6" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos7" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos8" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos9" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos0">
+						<div class="pos1 cercle_on"></div>
+						<div class="pos2 cercle_on"></div>
+						<div class="pos3 cercle_on"></div>
+						<div class="pos4 cercle_on"></div>
+						<div class="pos5 cercle_on"></div>
+						<div class="pos6 cercle_on"></div>
+						<div class="pos7 cercle_on"></div>
+						<div class="pos8 cercle_on"></div>
+						<div class="pos9 cercle_on"></div>
+						<div class="pos0 cercle_off">
 							<img src="ressource/fleche.png">
 						</div>
 						<p class="inside">4<br>mois</p>
 						<h2>Droit<br>Chomage</h2>
 					</div>
 					<div class="cercle">
-						<div class="pos1" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos2" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos3" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos4">
+						<div class="pos1 cercle_on"></div>
+						<div class="pos2 cercle_on"></div>
+						<div class="pos3 cercle_on"></div>
+						<div class="pos4 cercle_off">
 							<img src="ressource/fleche.png">
 						</div>
-						<div class="pos5"></div>
-						<div class="pos6"></div>
-						<div class="pos7"></div>
-						<div class="pos8"></div>
-						<div class="pos9"></div>
-						<div class="pos0"></div>
+						<div class="pos5 cercle_off"></div>
+						<div class="pos6 cercle_off"></div>
+						<div class="pos7 cercle_off"></div>
+						<div class="pos8 cercle_off"></div>
+						<div class="pos9 cercle_off"></div>
+						<div class="pos0 cercle_off"></div>
 						<p class="inside">258<br>heurs</p>
 						<h2>Compte<br>Formation</h2>
 					</div>
 					<div class="cercle">
-						<div class="pos1" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos2" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos3" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos4" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos5" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos6" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos7" style="background-color:rgba(61, 167, 177, 0.5);"></div>
-						<div class="pos8">
+						<div class="pos1 cercle_on"></div>
+						<div class="pos2 cercle_on"></div>
+						<div class="pos3 cercle_on"></div>
+						<div class="pos4 cercle_on"></div>
+						<div class="pos5 cercle_on"></div>
+						<div class="pos6 cercle_on"></div>
+						<div class="pos7 cercle_on"></div>
+						<div class="pos8 cercle_off">
 							<img src="ressource/fleche.png">
 						</div>
-						<div class="pos9"></div>
-						<div class="pos0"></div>
+						<div class="pos9 cercle_off"></div>
+						<div class="pos0 cercle_off"></div>
 						<p class="inside">10<br>point</p>
 						<h2>Compte<br>Penebilite</h2>
 					</div>
@@ -92,7 +114,7 @@ mais qu’on fait tout pour s’en approcher</p>
 				</span>
 			</div>
 			<div id="parcours">
-				<span class="title"><h3>Parcours actuel
+				<span><h3>Parcours actuel
 				<img class="flech" src="ressource/fleche.png"></h3></span>
 				<span class="corp" id="c_parcours">
 					<div class="carrer_barr barr_pro">
@@ -119,7 +141,7 @@ mais qu’on fait tout pour s’en approcher</p>
 				</span>
 			</div>
 			<div id="projet">
-				<span class="title"><h3>Projet: Licence Pro
+				<span><h3>Projet: Licence Pro
 				<img class="flech" src="ressource/fleche.png"></h3></span>
 				<span class="corp" id="c_projet">
 					<div class="carrer_barr barr_pro">
