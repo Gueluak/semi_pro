@@ -68,6 +68,7 @@ h4
 	padding-right: 30px;
 	font-weight: normal;
 	padding: 12px;
+	margin-bottom: 0;
 	font-family: sans-serif;
 	color: #ffffff;
 	background-color: #000088;
@@ -94,7 +95,19 @@ h4 img
 
 /*-- formulaire --*/
 
-#right
+#menu
+{
+	position: relative;
+	transition-duration: 5s;
+	box-shadow: inset 0px -5px 10px rgba(0,0,100,0.5);
+	text-align: right;
+	width: 100%;
+	height: 0px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#right p input, #right, #right p select
 {
 	float: right;
 }
@@ -102,6 +115,7 @@ h4 img
 #right p
 {
 	text-align: left;
+	min-width: 400px;
 	margin: 5px;
 }
 
